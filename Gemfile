@@ -6,7 +6,7 @@ gem 'bcrypt'
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'
-  gem 'bootstrap-sass'
+  gem 'bootstrap-sass', '2.3.2.0'
   gem 'guard-rspec'
   gem 'spork-rails'
   gem 'guard-zeus'
