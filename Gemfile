@@ -9,9 +9,12 @@ group :development, :test do
   gem 'bootstrap-sass', '2.3.2.0'
   gem 'guard-rspec'
   gem 'spork-rails'
+  gem 'faker'
   gem 'guard-zeus'
   gem 'guard-spork' 
   gem 'childprocess'
+  gem 'will_paginate'
+  gem 'bootstrap-will_paginate'
 end
 
 group :test do
